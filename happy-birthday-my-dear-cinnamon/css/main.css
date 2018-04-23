@@ -2651,7 +2651,9 @@ a:focus {
   padding: 2em;
   grid-template-columns: 50% 50%;
   grid-template-rows: auto auto 4em;
-  grid-template-areas: "header header" "... ..." "... demos"; }
+  grid-template-areas: "header header"
+ "... ..."
+ "... demos"; }
 
 .no-js .frame {
   position: relative;
@@ -3728,7 +3730,7 @@ section.active {
       left: 0;
       z-index: 1; }
     #gallery .grid__item.grid__item--nav-prev:before {
-      content: 'С днём рождения, Родная!';
+      content: 'Скоро приеду!';
       text-transform: uppercase;
       font-weight: 700;
       position: absolute;
